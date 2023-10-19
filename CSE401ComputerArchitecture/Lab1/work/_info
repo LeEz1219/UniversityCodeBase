@@ -1,0 +1,132 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\CSE 401\Lab1
+vI_FETCH
+V6IB1iZ83B_X4LTekS;;8k0
+r1
+31
+I`YF9M9^`n_8f2KkIRWfVK0
+Z1 dC:\CSE 401\Lab1
+w1302070908
+8C:/CSE 401/Lab1/ifetch.v
+FC:/CSE 401/Lab1/ifetch.v
+L0 24
+Z2 OL;L;10.1c;51
+Z3 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@i_@f@e@t@c@h
+!s85 0
+!s100 AUhXoC3Aab8]F7S1nOgIB0
+!s90 -reportprogress|300|-work|work|-vopt|C:/CSE 401/Lab1/ifetch.v|
+!s108 1496683585.274000
+!s107 C:/CSE 401/Lab1/ifetch.v|
+!i10b 1
+vif_id
+V0EWzWdLCzSY>THf3Z[ml71
+r1
+31
+IMl2A:<lD7CL`kK<;z]<A@1
+R1
+w1302071168
+8C:/CSE 401/Lab1/if_id.v
+FC:/CSE 401/Lab1/if_id.v
+L0 16
+R2
+R3
+!s85 0
+!s100 h7Xd4V_`K@6@eECM4`gW53
+!s90 -reportprogress|300|-work|work|-vopt|C:/CSE 401/Lab1/if_id.v|
+!s108 1496683584.637000
+!s107 C:/CSE 401/Lab1/if_id.v|
+!i10b 1
+vincrementer
+VE[M_b_`Ohz1m_iBSz=:O91
+r1
+!s85 0
+31
+Ieblo3X1JQ87LJB;]S[oDA2
+R1
+Z4 w1493713676
+8C:/CSE 401/Lab1/incr.v
+FC:/CSE 401/Lab1/incr.v
+L0 20
+R2
+R3
+!s100 B``eegbaDmgi[7DZf6njG0
+!s90 -reportprogress|300|-work|work|-vopt|C:/CSE 401/Lab1/incr.v|
+!s108 1496683584.332000
+!s107 C:/CSE 401/Lab1/incr.v|
+!i10b 1
+vmemory
+VC>=lXb^37fz8gZ:P4ATBb1
+r1
+31
+I>U@DnDVXkcEFCCAeYF>353
+R1
+w1302070686
+8C:/CSE 401/Lab1/mem.v
+FC:/CSE 401/Lab1/mem.v
+L0 16
+R2
+R3
+!s85 0
+!s100 =]o;FQEgW8j1_S>GcKPNU1
+!s90 -reportprogress|300|-work|work|-vopt|C:/CSE 401/Lab1/mem.v|
+!s108 1496683584.025000
+!s107 C:/CSE 401/Lab1/mem.v|
+!i10b 1
+vmux
+Vhm@j[8oHcLAanA7ChA50Z2
+r1
+31
+IjVcJXZ7SL373fQSz4e`_Z2
+R1
+R4
+8C:/CSE 401/Lab1/mux.v
+FC:/CSE 401/Lab1/mux.v
+L0 16
+R2
+R3
+!s85 0
+!s100 ]m4Gh^hic_g[oQec;E5;K0
+!s90 -reportprogress|300|-work|work|-vopt|C:/CSE 401/Lab1/mux.v|
+!s108 1496683583.676000
+!s107 C:/CSE 401/Lab1/mux.v|
+!i10b 1
+vpc_mod
+VeFF>];aPmG073KkKSIL4?0
+r1
+31
+Io0DE]Qc0VAS_Mb>6h]B=T1
+R1
+w1302070864
+8C:/CSE 401/Lab1/pc_mod.v
+FC:/CSE 401/Lab1/pc_mod.v
+L0 16
+R2
+R3
+!s85 0
+!s100 6LL8K>FXl:XnhX:zZRb;[2
+!s90 -reportprogress|300|-work|work|-vopt|C:/CSE 401/Lab1/pc_mod.v|
+!s108 1496683584.961000
+!s107 C:/CSE 401/Lab1/pc_mod.v|
+!i10b 1
+vpipeline
+V>HXBKnAeDV0127`5B>UC[3
+r1
+31
+IXE0^W0eg9f^Db@>R8gb@T1
+R1
+w1302071190
+8C:/CSE 401/Lab1/pipeline.v
+FC:/CSE 401/Lab1/pipeline.v
+L0 18
+R2
+R3
+!s85 0
+!s100 iDO9GkbnT`cMf>^=A:`HF1
+!s90 -reportprogress|300|-work|work|-vopt|C:/CSE 401/Lab1/pipeline.v|
+!i10b 1
+!s108 1496683585.542000
+!s107 C:/CSE 401/Lab1/pipeline.v|
