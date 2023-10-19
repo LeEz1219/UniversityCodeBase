@@ -1,0 +1,54 @@
+
+
+
+HOTE HOTELNAME       CITY                                                       
+---- --------------- ---------------                                            
+H001 SunShine        SanBernardino                                              
+H002 KingStay        Riverside                                                  
+H003 Hilton          LosAngeles                                                 
+
+3 rows selected.
+
+
+ROO HOTE TYPE       PRICE                                                       
+--- ---- ---------- -----                                                       
+L01 H001 Luxury     200                                                         
+L02 H001 Deluxe     150                                                         
+L03 H001 Basic      100                                                         
+D01 H002 Luxury     150                                                         
+D02 H002 Deluxe     100                                                         
+D03 H002 Basic      50                                                          
+C01 H003 Luxury     300                                                         
+C02 H003 Deluxe     200                                                         
+C03 H003 Basic      100                                                         
+
+9 rows selected.
+
+
+GUES GUESTNAME            GUESTADDRESS                                          
+---- -------------------- ------------------------------                        
+G001 LarryWhites          124MainSt, Riverside 92403                            
+G002 BarryBlack           125MainSt, Redlands 92404                             
+G003 MarvinGaye           126MainSt, Crona 92405                                
+
+3 rows selected.
+
+GUES GUESTNAME            GUESTADDRESS                                          
+---- -------------------- ------------------------------                        
+G001 LarryWhites          124MainSt, Riverside 92403                            
+G002 BarryBlack           125MainSt, Redlands 92404                             
+G003 MarvinGaye           126MainSt, Crona 92405                                
+
+3 rows selected.
+
+HOTE GUES DATEFROM   DATETO     ROO                                             
+---- ---- ---------- ---------- ---                                             
+H001 G001 4_Jan_19   8_Jan_19   L01                                             
+H001 G001 4_Feb_19   8_Feb_19   L02                                             
+H002 G002 11_Feb_19  8_Jan_19   D02                                             
+H002 G002 11_Mar_19  8_Mar_19   D03                                             
+H003 G003 12_Apr_19  22_May_19  C01                                             
+H003 G003 12_Jun_19  22_Aug_19  C02                                             
+
+6 rows selected.
+
