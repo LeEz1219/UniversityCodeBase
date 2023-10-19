@@ -1,0 +1,141 @@
+{C:/CSE 401/Lab3/control.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab3/control.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module control
+
+Top level modules:
+	control
+
+} {} {}} {C:/CSE 401/Lab3/test_mux.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab3/test_mux.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module test_mux
+
+Top level modules:
+	test_mux
+
+} {} {}} {C:/CSE 401/Lab3/id_ex.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab3/id_ex.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module id_ex
+
+Top level modules:
+	id_ex
+
+} {} {}} {C:/CSE 401/Lab3/alu.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab3/alu.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} {C:/CSE 401/Lab3/mux.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab3/mux.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module mux
+
+Top level modules:
+	mux
+
+} {} {}} {C:/CSE 401/Lab3/pc_mod.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab3/pc_mod.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pc_mod
+
+Top level modules:
+	pc_mod
+
+} {} {}} {C:/CSE 401/Lab3/if_id.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab3/if_id.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module if_id
+
+Top level modules:
+	if_id
+
+} {} {}} {C:/CSE 401/Lab3/ex_mem.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab3/ex_mem.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ex_mem
+
+Top level modules:
+	ex_mem
+
+} {} {}} {C:/CSE 401/Lab3/idecode.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab3/idecode.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module IDECODE
+
+Top level modules:
+	IDECODE
+
+} {} {}} {C:/CSE 401/Lab3/pipeline.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab3/pipeline.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pipeline
+
+Top level modules:
+	pipeline
+
+} {} {}} {C:/CSE 401/Lab3/reg.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab3/reg.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} {C:/CSE 401/Lab3/mem.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab3/mem.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module memory
+
+Top level modules:
+	memory
+
+} {} {}} {C:/CSE 401/Lab3/adder.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab3/adder.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} {C:/CSE 401/Lab3/test-alucontrol.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab3/test-alucontrol.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module test_alucontrol
+
+Top level modules:
+	test_alucontrol
+
+} {} {}} {C:/CSE 401/Lab3/alu_test.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab3/alu_test.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module alu_test
+
+Top level modules:
+	alu_test
+
+} {} {}} {C:/CSE 401/Lab3/alu_control.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab3/alu_control.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module alu_control
+
+Top level modules:
+	alu_control
+
+} {} {}} {C:/CSE 401/Lab3/s_extend.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab3/s_extend.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module s_extend
+
+Top level modules:
+	s_extend
+
+} {} {}} {C:/CSE 401/Lab3/ifetch.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab3/ifetch.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module I_FETCH
+
+Top level modules:
+	I_FETCH
+
+} {} {}} {C:/CSE 401/Lab3/execute.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab3/execute.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module EXECUTE
+
+Top level modules:
+	EXECUTE
+
+} {} {}} {C:/CSE 401/Lab3/incr.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab3/incr.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module incrementer
+
+Top level modules:
+	incrementer
+
+} {} {}}
