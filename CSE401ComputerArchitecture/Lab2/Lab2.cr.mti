@@ -1,0 +1,92 @@
+{C:/CSE 401/Lab2/control.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab2/control.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module control
+
+Top level modules:
+	control
+
+} {} {}} {C:/CSE 401/Lab2/id_ex.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab2/id_ex.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module id_ex
+
+Top level modules:
+	id_ex
+
+} {} {}} {C:/CSE 401/Lab2/s_extend.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab2/s_extend.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module s_extend
+
+Top level modules:
+	s_extend
+
+} {} {}} {C:/CSE 401/Lab2/mux.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab2/mux.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module mux
+
+Top level modules:
+	mux
+
+} {} {}} {C:/CSE 401/Lab2/ifetch.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab2/ifetch.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module I_FETCH
+
+Top level modules:
+	I_FETCH
+
+} {} {}} {C:/CSE 401/Lab2/if_id.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab2/if_id.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module if_id
+
+Top level modules:
+	if_id
+
+} {} {}} {C:/CSE 401/Lab2/incr.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab2/incr.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module incrementer
+
+Top level modules:
+	incrementer
+
+} {} {}} {C:/CSE 401/Lab2/idecode.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab2/idecode.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module IDECODE
+
+Top level modules:
+	IDECODE
+
+} {} {}} {C:/CSE 401/Lab2/reg.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab2/reg.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} {C:/CSE 401/Lab2/mem.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab2/mem.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module memory
+
+Top level modules:
+	memory
+
+} {} {}} {C:/CSE 401/Lab2/pc_mod.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab2/pc_mod.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pc_mod
+
+Top level modules:
+	pc_mod
+
+} {} {}} {C:/CSE 401/Lab2/idecode_tb.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab2/idecode_tb.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module idecode_tb
+
+Top level modules:
+	idecode_tb
+
+} {} {}} {C:/CSE 401/Lab2/pipeline.v} {1 {vlog -work work -vopt {C:/CSE 401/Lab2/pipeline.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pipeline
+
+Top level modules:
+	pipeline
+
+} {} {}}
