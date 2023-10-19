@@ -1,0 +1,72 @@
+ Name                       Null?    Type
+ -------------------------- -------- ------------------
+ DEPARTMENT_NO              NOT NULL CHAR(4)
+ DEPARTMENT_NAME                     VARCHAR2(10)
+ PHONE_NUMBER                        CHAR(10)
+ FAX_NUMBER                          CHAR(10)
+ LOCATION                            CHAR(6)
+ STAFF_NUMBER                        CHAR(5)
+
+ Name                       Null?    Type
+ -------------------------- -------- ------------------
+ STAFF_NUMBER               NOT NULL CHAR(5)
+ DEPARTMENT_NO                       CHAR(4)
+ START_DATE                          CHAR(9)
+ PC_USERID                           VARCHAR2(10)
+ STAFF_NAME                          VARCHAR2(20)
+ PHONE_NUMBER                        CHAR(10)
+ OFFICE_NUMBER                       CHAR(10)
+ SEX                                 CHAR(1)
+ SALARY                              NUMBER(7,2)
+ POST                                VARCHAR2(10)
+ QUALIFICATIONS                      VARCHAR2(11)
+ ADDRESS                             VARCHAR2(30)
+
+ Name                       Null?    Type
+ -------------------------- -------- ------------------
+ COURSE_CODE                NOT NULL CHAR(5)
+ STAFF_NUMBER                        CHAR(5)
+ DEPARTMENT_NO                       CHAR(4)
+ COURSE_TITLE                        VARCHAR2(10)
+ DURATION_DATE                       VARCHAR2(10)
+
+ Name                       Null?    Type
+ -------------------------- -------- ------------------
+ STAFF_NUMBER               NOT NULL CHAR(5)
+ MODULE_CODE                NOT NULL CHAR(5)
+ HOURS                               VARCHAR2(10)
+
+ Name                       Null?    Type
+ -------------------------- -------- ------------------
+ MODULE_CODE                NOT NULL CHAR(5)
+ COURSE_CODE                         CHAR(5)
+ STAFF_NUMBER                        CHAR(5)
+ MODULE_TITLE                        VARCHAR2(10)
+ START_DATE                          CHAR(9)
+ END_DATE                            CHAR(9)
+ TEXTS                               VARCHAR2(10)
+ ASSESSMENTSCHEME                    VARCHAR2(20)
+
+ Name                       Null?    Type
+ -------------------------- -------- ------------------
+ MODULE_CODE                NOT NULL CHAR(5)
+ MATRICULATION_NUMBER       NOT NULL CHAR(9)
+ PERFORMANCE                         CHAR(1)
+
+ Name                       Null?    Type
+ -------------------------- -------- ------------------
+ MATRICULATION_NUMBER       NOT NULL CHAR(8)
+ COURSE_CODE                         CHAR(5)
+ PC_USERID                           VARCHAR2(10)
+ STUDENT_NAME                        VARCHAR2(20)
+ ADDRESS                             VARCHAR2(30)
+ DATE_OF_BIRTH                       CHAR(11)
+ SEX                                 CHAR(1)
+ FINANCIAL_LOAN                      CHAR(1)
+
+ Name                       Null?    Type
+ -------------------------- -------- ------------------
+ STUDENT_NAME               NOT NULL VARCHAR2(20)
+ KIN_NAME                   NOT NULL VARCHAR2(20)
+ MATRICULATION_NUMBER                CHAR(8)
+

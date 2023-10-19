@@ -1,0 +1,42 @@
+
+no rows selected
+
+
+no rows selected
+
+
+no rows selected
+
+
+no rows selected
+
+
+no rows selected
+
+SELECT * FROM AboveAvgSal
+              *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+
+no rows selected
+
+SELECT * FROM MFCIS
+              *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+SELECT * FROM StaffHours
+              *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+SELECT * FROM MFDept
+              *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+

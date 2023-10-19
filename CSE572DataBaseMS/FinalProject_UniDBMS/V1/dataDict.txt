@@ -1,0 +1,88 @@
+TABLE_NAME           TABLE_TYPE  COMMENTS
+-------------------- ----------- ----------------------------------------
+Department           Table       ALL Departments of the University
+AcademicStaff        Table       ALL Academic Staff of the University
+Courses              Table       ALL courses in the University
+TeachingHour         Table       the record of Teaching Hours of every Academic staff
+Modules              Table       ALL Modules in the University
+StudentModule        Table       the performance of a student in the module
+Students             Table       ALL Students in the University
+NextOfKin            Table       the name of a NextOfKin of a student
+8 rows selected.
+TABLE_NAME           COLUMN_NAME          COMMENTS
+-------------------- -------------------- ---------------------------------------- 
+Department           Department_No        department number
+Department           Department_Name      The name of Department
+Department           Phone_Number         Phone Number of the department
+Department           Location             he location of Department
+Department           Staff_Number         Staff Number who works in this department
+5 rows selected.
+TABLE_NAME           COLUMN_NAME          COMMENTS
+-------------------- -------------------- ---------------------------------------- 
+AcademicStaff        Staff_Number         Staff Number
+AcademicStaff        Department_No        The number of Department        
+AcademicStaff        Start_Date           Start Date of the staff
+AcademicStaff        PC_UserID            ID number to access computers and network
+AcademicStaff        Phone_Number         The Phone Number of the staff
+AcademicStaff        Office_Number        The Office Number of the staff
+AcademicStaff        Sex                  The gender of the staff
+AcademicStaff        Salary               The Salary of the staff
+AcademicStaff        Post                 The profession of the staff
+AcademicStaff        Qualifications       The Qualifications of the staff
+AcademicStaff        Address              The Address of the staff
+11 rows selected.
+TABLE_NAME           COLUMN_NAME          COMMENTS
+-------------------- -------------------- ----------------------------------------
+Courses              Course_Code          the code number of a course
+Courses              Staff_Number         Staff Number of who teaches this course
+Courses              Department_No        department number
+Courses              Course_Title         The title of a course
+Courses              Duration_Date        Duration Date
+5 rows selected.
+TABLE_NAME           COLUMN_NAME          COMMENTS
+-------------------- -------------------- ---------------------------------------- 
+TeachingHour         Staff_Number         Staff_Number
+TeachingHour         Module_Code          the Code of a module
+TeachingHour         Hours                the record of Teaching Hours of an 
+                                          academic staff 
+3 rows selected.
+TABLE_NAME           COLUMN_NAME          COMMENTS
+-------------------- -------------------- ----------------------------------------
+Modules              Module_Code          the Code of a module
+Modules              Course_Code          the code number of a course inside this 
+                                          module
+Modules              Staff_Number         Staff Number who teaches this module
+Modules              Module_Title         The name of a module
+Modules              Start_Date           Start Date of the staff who teaches this 
+                                          module 
+Modules              End_Date             End Date of the staff who teaches this 
+                                          module
+Modules              Texts                name of a text book
+Modules              AssessmentScheme     Assessment Scheme
+8 rows selected.
+TABLE_NAME           COLUMN_NAME          COMMENTS
+-------------------- -------------------- ---------------------------------------- 
+StudentModule        Module_Code          the Code of a module
+StudentModule        Matriculation_Number Matriculation Number of a student
+StudentModule        Performance          the grade of a student
+3 rows selected.
+TABLE_NAME           COLUMN_NAME          COMMENTS
+-------------------- -------------------- ---------------------------------------- 
+Students             Matriculation_Number Matriculation Number of a student
+Students             Course_Code          Code number of a course which student 
+                                          is taking
+Students             PC_UserID            The ID number to access computers and 
+                                          network
+Students             Student_Name         The name of a Student
+Students             Address              The address of a Student
+Students             Date_of_Birth        The Date of Birth of a Student
+Students             Sex                  The gender of the student
+Students             Financial_Loan       whether this student has Financial Loan
+8 rows selected.
+TABLE_NAME           COLUMN_NAME          COMMENTS
+-------------------- -------------------- ---------------------------------------- 
+NextOfKin            Student_Name         The name of a Student
+NextOfKin            Kin_Name             the Kin_Name of a student
+NextOfKin            Matriculation_Number the Matriculation Number of a student
+3 rows selected.
+
