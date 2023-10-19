@@ -1,0 +1,27 @@
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 561419e5bcf34e63b63bedbe8d374338 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot pipeline_behav xil_defaultlib.pipeline xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/CSE 401/Lab2/mux.v" Line 16. Module mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/CSE 401/Lab2/incr.v" Line 20. Module incrementer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/CSE 401/Lab2/mux.v" Line 16. Module mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/CSE 401/Lab2/incr.v" Line 20. Module incrementer doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.pc_mod
+Compiling module xil_defaultlib.memory
+Compiling module xil_defaultlib.if_id
+Compiling module xil_defaultlib.incrementer
+Compiling module xil_defaultlib.I_FETCH
+Compiling module xil_defaultlib.control
+Compiling module xil_defaultlib.register
+Compiling module xil_defaultlib.s_extend
+Compiling module xil_defaultlib.id_ex
+Compiling module xil_defaultlib.IDECODE
+Compiling module xil_defaultlib.pipeline
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot pipeline_behav

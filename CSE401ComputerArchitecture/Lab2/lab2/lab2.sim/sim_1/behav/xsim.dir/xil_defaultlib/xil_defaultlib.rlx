@@ -1,0 +1,17 @@
+0.6
+2016.3
+Oct 10 2016
+19:46:48
+C:/CSE 401/Lab2/control.v,1496622312,verilog,,,,control,,,,,,,,
+C:/CSE 401/Lab2/id_ex.v,1496624220,verilog,,,,id_ex,,,,,,,,
+C:/CSE 401/Lab2/idecode.v,1496681691,verilog,,,,IDECODE,,,,,,,,
+C:/CSE 401/Lab2/if_id.v,1496683009,verilog,,,,if_id,,,,,,,,
+C:/CSE 401/Lab2/ifetch.v,1496682974,verilog,,,,I_FETCH,,,,,,,,
+C:/CSE 401/Lab2/incr.v,1493713676,verilog,,,,incrementer,,,,,,,,
+C:/CSE 401/Lab2/lab2/lab2.sim/sim_1/behav/glbl.v,1476033524,verilog,,,,glbl,,,,,,,,
+C:/CSE 401/Lab2/mem.v,1496682968,verilog,,,,memory,,,,,,,,
+C:/CSE 401/Lab2/mux.v,1493713676,verilog,,,,mux,,,,,,,,
+C:/CSE 401/Lab2/pc_mod.v,1496683063,verilog,,,,pc_mod,,,,,,,,
+C:/CSE 401/Lab2/pipeline.v,1496684189,verilog,,,,pipeline,,,,,,,,
+C:/CSE 401/Lab2/reg.v,1496626966,verilog,,,,register,,,,,,,,
+C:/CSE 401/Lab2/s_extend.v,1496622695,verilog,,,,s_extend,,,,,,,,

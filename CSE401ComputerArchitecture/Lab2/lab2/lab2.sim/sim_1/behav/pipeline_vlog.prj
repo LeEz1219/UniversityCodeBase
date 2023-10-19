@@ -1,0 +1,19 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../../pc_mod.v"
+verilog xil_defaultlib  "../../../../mux.v"
+verilog xil_defaultlib  "../../../../mem.v"
+verilog xil_defaultlib  "../../../../incr.v"
+verilog xil_defaultlib  "../../../../if_id.v"
+verilog xil_defaultlib  "../../../../id_ex.v"
+verilog xil_defaultlib  "../../../../s_extend.v"
+verilog xil_defaultlib  "../../../../reg.v"
+verilog xil_defaultlib  "../../../../control.v"
+verilog xil_defaultlib  "../../../../ifetch.v"
+verilog xil_defaultlib  "../../../../idecode.v"
+verilog xil_defaultlib  "../../../../pipeline.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

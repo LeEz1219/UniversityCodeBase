@@ -1,0 +1,26 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CSE 401/Lab2/pc_mod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc_mod
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CSE 401/Lab2/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CSE 401/Lab2/mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CSE 401/Lab2/incr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module incrementer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CSE 401/Lab2/if_id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module if_id
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CSE 401/Lab2/id_ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id_ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CSE 401/Lab2/s_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module s_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CSE 401/Lab2/reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CSE 401/Lab2/control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CSE 401/Lab2/ifetch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module I_FETCH
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CSE 401/Lab2/idecode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDECODE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CSE 401/Lab2/pipeline.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/CSE 401/Lab2/lab2/lab2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
