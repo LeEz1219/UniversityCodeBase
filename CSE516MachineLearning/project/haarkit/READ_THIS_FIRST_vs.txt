@@ -1,0 +1,253 @@
+
+Haar Training Tutorial 
+Edited by Haiyan Qiao
+
+I assume that You already have installed OpenCv and You are using windows...
+
+
+Preparations :
+To get rid of troubles with file naming issues You should unpack tools.rar archive to the root of your hard drive (for exemple d:\)
+
+*)	In folder "..\temp\negative" you should store your images not containing "the object" - thing You want to be recognized.
+	After You have  tons of negative bmp files (like 2500) You can use batch file create_list.bat (file is already there).
+	It creates list of bmp files and saves it to infofile.txt.
+	File infofile.txt should contain lines like :   image2619.BMP
+							image2620.BMP
+							...
+	At this address You can find databases of thousands of pictures to download. 
+	
+	
+	http://www.pascal-network.org/challenges/VOC/databases.html#VOC2005_1
+
+
+
+*) 	In folder "..\temp\positive\rawdata you should store images (*.bmp) containing the object ( >1000)
+	After that use the ..\temp\positive\objectmarker.exe. File readme.txt explains usage of this tool.
+	this tool creates file info.txt . Each line should look like : "rawdata/image0.bmp 1 146 109 47 46"
+	You should backup info.txt file from time to time becouse each start of objectmarker.exe overwrites the info.txt file.
+	Avoid empty lines and empty space in image’s path in info.txt file. 
+	In each positive image, there can be several objects. They have bounding rectangles: x,y, width, height. Each image is description in one line in the info.txt:
+	positive_image_name  num_of_objects x y width height x y width height …
+	Such info about positive images is called description file.
+
+Note:
+*)	Stay consistent with the parameters w and h when performing
+	--createsamples.exe
+	--createsamples.exe 
+	--performance.exe
+
+*)	The ratio positive:negative is suggested to be between 1:1.5 - 1:2.
+
+
+------------------------------------------------------------
+Samples Creation:
+
+*)	What we should have untill now :
+
+	file : \temp\negative\infofile.txt with lines like "image2619.BMP"
+	file : \temp\positive\info.txt with lines like	"rawdata/image0.bmp 1 146 109 47 46"
+	
+*)	now we can use createsamples.exe tool to pack object images to vec-file . 
+
+	createsamples.exe -info positive/info.txt -vec data/vector.vec -num 1800 -w 24 -h 24
+	
+	This command will create file vector.vec in folder \temp\data
+	paramteres -num 1800 is a number of positive bmp files . You should change it to your needs(exact number of your positive bmp files).
+	-w 24 -h 24 - sample size 
+		
+	You can use my batch file "samples_creation.bat"
+
+Training :
+
+*)	After we have our vector.vec file created we can start our training.
+	Command :
+	
+	haartraining.exe -data data/cascade -vec data/vector.vec -bg negative/infofile.txt -npos 1800 -nneg 2620 -nstages 20 -mem 1000 -mode ALL -w 24 -h 24 -nonsym					
+
+	,starts training.
+	
+	parametres :	
+			
+			-data data/cascade	- path to cascade files. Each stage completed creates file \temp\data\cascade\0..N\AdaBoostCARTHaarClassifier.txt
+	
+			-vec data/vector.vec	- file that we have created with createsamples.exe
+			
+			-bg negative/infofile.txt	list of negatives bmp files from \temp\negative\
+			
+			-npos 1800			number of positive bmp files 
+			
+			-nneg 2620			number of negative bmp files 
+
+			
+			-nstages 30			number of stages to complete , calculating through 20 stages took about 30 h (p4 3,2ghz , 2gb ddr ram, )
+			
+			-mem 1000			quantity of memory you are able to assign to program
+			 
+
+			-mode ALL			look in literature for more info about this parametres
+			
+			-w 24 -h 24 			sample size. Note: w  h  should be the same as the values you put during vec file generation!!!
+
+			-nonsym				this parameter isn't needed if your object is horizontally symetrical
+
+	You can revise my batch file "haarTraining.bat" and use the batch file.
+
+=======================================================================================
+
+This is the table output from haartraning.exe, for a current stage in a cascade:
+
++----+----+-+---------+---------+---------+---------+
+|  N |%%SMP|F|  ST.THR |    HR   |    FA   | EXP. ERR|
++----+----+-+---------+---------+---------+---------+
+
+    N = current feature for this cascade (seq->total),
+    %%SMP = percentage of samples used, if trimmings enabled (v_wt)
+    F = '+' if isFilpped, if symmetry is specified (v_flipped), '-' otherwise
+    ST.THR = stage threshold,
+    HR = Hit Rate based on Stage threshold (v_hitrate / numpos),
+    FA = False alarm based on Stage threshold (v_falsealarm / numneg)
+    EXP.ERR = Strong classification error of adaboost algorithm,
+    based on threshold=0 (v_experr)
+
+e.g.
+_________________________________________________________________________________
+
+Parent node: 17
+
+*** 1 cluster ***
+POS: 1656 1799 0.920511
+NEG: 2410 1.97289e-005
+BACKGROUND PROCESSING TIME: 1279.69
+Precalculation time: 63.20
++----+----+-+---------+---------+---------+---------+
+|  N |%SMP|F|  ST.THR |    HR   |    FA   | EXP. ERR|
++----+----+-+---------+---------+---------+---------+
+|   1|100%|-|-0.312590| 1.000000| 1.000000| 0.256272|
++----+----+-+---------+---------+---------+---------+
+|   2|100%|-|-0.537043| 1.000000| 1.000000| 0.294638|
++----+----+-+---------+---------+---------+---------+
+|   3|100%|-|-0.776489| 1.000000| 1.000000| 0.238072|
++----+----+-+---------+---------+---------+---------+
+|   4|100%|-|-1.415237| 1.000000| 1.000000| 0.264879|
++----+----+-+---------+---------+---------+---------+
+|   5| 96%|-|-1.120346| 0.996981| 0.969710| 0.242253|
++----+----+-+---------+---------+---------+---------+
+|   6| 84%|-|-1.471691| 0.996981| 0.956432| 0.218888|
++----+----+-+---------+---------+---------+---------+
+|   7| 82%|-|-1.187260| 0.996981| 0.909959| 0.230939|
++----+----+-+---------+---------+---------+---------+
+|   8| 83%|-|-1.209699| 0.995773| 0.897510| 0.216675|
++----+----+-+---------+---------+---------+---------+
+|   9| 83%|-|-1.187195| 0.995169| 0.848548| 0.196754|
++----+----+-+---------+---------+---------+---------+
+|  10| 81%|-|-1.332160| 0.995169| 0.880498| 0.178062|
++----+----+-+---------+---------+---------+---------+
+|  11| 83%|-|-1.529588| 0.995773| 0.881328| 0.190113|
++----+----+-+---------+---------+---------+---------+
+|  12| 81%|-|-1.529296| 0.995169| 0.859751| 0.178554|
++----+----+-+---------+---------+---------+---------+
+|  13| 80%|-|-1.471163| 0.995169| 0.820332| 0.165765|
++----+----+-+---------+---------+---------+---------+
+|  14| 80%|-|-1.439857| 0.995169| 0.797095| 0.157895|
++----+----+-+---------+---------+---------+---------+
+|  15| 79%|-|-1.366838| 0.995169| 0.755602| 0.149287|
++----+----+-+---------+---------+---------+---------+
+|  16| 77%|-|-1.357297| 0.995169| 0.729046| 0.148303|
++----+----+-+---------+---------+---------+---------+
+|  17| 77%|-|-1.350920| 0.995169| 0.698755| 0.142892|
++----+----+-+---------+---------+---------+---------+
+|  18| 77%|-|-1.286876| 0.995169| 0.657261| 0.140187|
++----+----+-+---------+---------+---------+---------+
+|  19| 76%|-|-1.340796| 0.995169| 0.643983| 0.137236|
++----+----+-+---------+---------+---------+---------+
+|  20| 75%|-|-1.258729| 0.995169| 0.607054| 0.135022|
++----+----+-+---------+---------+---------+---------+
+|  21| 75%|-|-1.259443| 0.995169| 0.594606| 0.124447|
++----+----+-+---------+---------+---------+---------+
+|  22| 75%|-|-1.247393| 0.995169| 0.578008| 0.121249|
++----+----+-+---------+---------+---------+---------+
+|  23| 74%|-|-1.189301| 0.995169| 0.539419| 0.118790|
++----+----+-+---------+---------+---------+---------+
+|  24| 74%|-|-1.278121| 0.995169| 0.547303| 0.116822|
++----+----+-+---------+---------+---------+---------+
+|  25| 73%|-|-1.194187| 0.995169| 0.503734| 0.115347|
++----+----+-+---------+---------+---------+---------+
+|  26| 73%|-|-1.216452| 0.995169| 0.484232| 0.110182|
++----+----+-+---------+---------+---------+---------+
+Stage training time: 7788.05
+Number of used features: 26
+
+Parent node: 17
+Chosen number of splits: 0
+
+Total number of splits: 0
+
+Tree Classifier
+Stage
++---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+
+|  0|  1|  2|  3|  4|  5|  6|  7|  8|  9| 10| 11| 12| 13| 14| 15| 16| 17| 18|
++---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+
+
+   0---1---2---3---4---5---6---7---8---9--10--11--12--13--14--15--16--17--18
+
+
+
+
+_________________________________________________________________________________
+
+
+*)	We can continue after completion of 20 stages or after the value of false alarm is >=1*10e-5
+	You can observe it while haartraining is still running .
+__________________________________________________
+	For example :
+	
+Parent node: 17
+
+*** 1 cluster ***
+POS: 1656 1799 0.920511
+NEG: 2410 1.97289e-005
+		^		
+		|
+	this is FAlse alarm rate.
+________________________________________________	
+	In folder \temp\data\cascade we should have catalogues named from "0" to "N" (N is the number of completed stages).
+	In each of those there should be AdaBoostCARTHaarClassifier.txt file.
+	We can copy All those 0 to N catalogues to ..\cascade2xml\data catalogue.
+
+	Now we can convert Cascade files to xml file.
+
+*)	By using \cascade2xml\haarconv.exe with paramteres we can create xml file :
+	
+	command : haarconv.exe data output.xml 24 24
+	should create output.xml file which is ready to use with recognition application.
+	You can use \cascade2xml\convert.bat to start.
+
+*)	Copy output.xml file to \test_recognition catalogue
+	by using command :
+	facedetect.exe --cascade="output.xml" 0
+	You can start recognition using webcam as a image source.
+	Instead of camera You can put file name for egz [pic0.jpg] 
+	or movie [film.avi]
+
+Testing :
+
+*)	How to I test generated XML cascade?
+
+	There is temp\perfomance.exe. You need have positive images(not used during training) and positive description (info.txt) file.  Use like:
+
+	performance -data haarcascade -w 24 -h 24 -info info_testing.txt -ni
+
+	performance -data haarcascade.xml -info info_testing.txt -ni
+
+
+
+
+	
+----------------------------------------------------------------------------------------
+acknowledgements/explanations:
+
+http://robotik.inflomatik.info/other/opencv/OpenCV_ObjectDetection_HowTo.pdf
+ReadMe by Jakub Domanski, december 2006
+
+
+
