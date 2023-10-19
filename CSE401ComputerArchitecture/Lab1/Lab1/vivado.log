@@ -1,0 +1,49 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Mon May 01 18:01:08 2017
+# Process ID: 18708
+# Current directory: C:/CSE 401/Lab1/Lab1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17264 C:\CSE 401\Lab1\Lab1\Lab1.xpr
+# Log file: C:/CSE 401/Lab1/Lab1/vivado.log
+# Journal file: C:/CSE 401/Lab1/Lab1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/CSE 401/Lab1/Lab1/Lab1.xpr}
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'C:/CSE 401/Lab1/Lab1/Lab1.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 813.098 ; gain = 142.0reset_run synth_1
+launch_runs impl_1 -jobs 2
+[Mon May 01 18:03:30 2017] Launched synth_1...
+Run output will be captured here: C:/CSE 401/Lab1/Lab1/Lab1.runs/synth_1/runme.log
+[Mon May 01 18:03:30 2017] Launched impl_1...
+Run output will be captured here: C:/CSE 401/Lab1/Lab1/Lab1.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 65 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.3
+INFO: [Device 21-403] Loading part xc7a35tcsg325-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.192 . Memory (MB): peak = 1085.789 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.192 . Memory (MB): peak = 1085.789 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:19 ; elapsed = 00:00:15 . Memory (MB): peak = 1201.898 ; gain = 283.957
+ERROR: [Common 17-165] Too many positional options when parsing '401/Lab1/Lab1/Lab1.runs/impl_1/mux_power_routed.rpx', please type 'open_report -help' for usage info.
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Mon May 01 18:17:06 2017] Launched impl_1...
+Run output will be captured here: C:/CSE 401/Lab1/Lab1/Lab1.runs/impl_1/runme.log
+add_files -norecurse C:/modeltech64_10.1c/examples/test-mux.v
+remove_files  C:/modeltech64_10.1c/examples/test-mux.v
+update_compile_order -fileset sources_1

@@ -1,0 +1,1657 @@
+/*
+
+Vivado v2016.3 (64-bit)
+SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+Process ID: 112
+
+Current time: 	5/1/17 6:01:09 PM PDT
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 2048x1152
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+User working directory: C:/CSE 401/Lab1/Lab1
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI base root directory: C:/Xilinx/Vivado
+RDI data directory: C:/Xilinx/Vivado/2016.3/data
+RDI bin directory: C:/Xilinx/Vivado/2016.3/bin
+
+Vivado preferences path: C:/Users/Arusyak/AppData/Roaming/Xilinx/Vivado/2016.3/vivado.ini
+Vivado layouts directory: C:/Users/Arusyak/AppData/Roaming/Xilinx/Vivado/2016.3/layouts
+
+GUI allocated memory:	214 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 407 MB
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 54 MB (+54131kb) [00:00:14]
+// [Engine Memory]: 383 MB (+249866kb) [00:00:14]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bt:g (cd:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\CSE 401\Lab1\Lab1\Lab1.xpr. Version: Vivado v2016.3 
+// Tcl Message: open_project {C:/CSE 401/Lab1/Lab1/Lab1.xpr} 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [Engine Memory]: 406 MB (+4081kb) [00:00:17]
+// HMemoryUtils.trashcanNow. Engine heap size: 413 MB. GUI used memory: 31 MB. Current time: 5/1/17 6:01:11 PM PDT
+// TclEventType: MSGMGR_MOVEMSG
+// [Engine Memory]: 431 MB (+5027kb) [00:00:22]
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/CSE 401/Lab1/Lab1/Lab1.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// [Engine Memory]: 460 MB (+7503kb) [00:00:32]
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 541 MB (+61236kb) [00:00:36]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'. 
+// Project name: Lab1; location: C:/CSE 401/Lab1/Lab1; part: xc7a35tcsg325-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:27 . Memory (MB): peak = 834.508 ; gain = 173.230 
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 559 MB. GUI used memory: 43 MB. Current time: 5/1/17 6:01:38 PM PDT
+// TclEventType: DG_UPDATE_GRAPH
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 57 MB (+218kb) [00:01:12]
+// Elapsed time: 101 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // v:K (u:D, cd:JFrame)
+selectButton(PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION, "run_implementation"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// 'c' command handler elapsed time: 3 seconds
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: launch_runs impl_1 -jobs 2 
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// [Engine Memory]: 615 MB (+48771kb) [00:02:38]
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon May 01 18:03:30 2017] Launched synth_1... Run output will be captured here: C:/CSE 401/Lab1/Lab1/Lab1.runs/synth_1/runme.log [Mon May 01 18:03:30 2017] Launched impl_1... Run output will be captured here: C:/CSE 401/Lab1/Lab1/Lab1.runs/impl_1/runme.log 
+// [GUI Memory]: 60 MB (+666kb) [00:02:38]
+// [GUI Memory]: 67 MB (+3439kb) [00:02:38]
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 615 MB. GUI used memory: 37 MB. Current time: 5/1/17 6:03:32 PM PDT
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 71 MB (+856kb) [00:07:05]
+// [GUI Memory]: 75 MB (+650kb) [00:12:36]
+// ah:y (cd:JFrame): Implementation Completed: addNotify
+// Elapsed time: 714 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bt:g (cd:JFrame):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 690 MB. GUI used memory: 37 MB. Current time: 5/1/17 6:15:27 PM PDT
+// [Engine Memory]: 729 MB (+87725kb) [00:14:36]
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 848 MB. GUI used memory: 36 MB. Current time: 5/1/17 6:15:34 PM PDT
+// [Engine Memory]: 849 MB (+87415kb) [00:14:41]
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: C:/Xilinx/Vivado/2016.3/data/./parts/xilinx/artix7/devint/artix7/xc7a35t/xc7a35t.xgd; ZipEntry: xc7a35t_detail.xgd elapsed time: 0.8s
+// [Engine Memory]: 933 MB (+43162kb) [00:14:43]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 1.5s
+// Package: addNotify
+// [GUI Memory]: 81 MB (+2463kb) [00:14:47]
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 65 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2016.3 INFO: [Device 21-403] Loading part xc7a35tcsg325-1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.192 . Memory (MB): peak = 1085.789 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.192 . Memory (MB): peak = 1085.789 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: open_run: Time (s): cpu = 00:00:19 ; elapsed = 00:00:15 . Memory (MB): peak = 1201.898 ; gain = 283.957 
+// TclEventType: DRC_ADDED
+// 'dC' command handler elapsed time: 15 seconds
+// [GUI Memory]: 89 MB (+3516kb) [00:14:49]
+// Elapsed time: 16 seconds
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 345, 531, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 345, 531, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// TclEventType: DRC_ADDED
+// [Engine Memory]: 979 MB (+119kb) [00:14:49]
+// TclEventType: METHODOLOGY_ADDED
+dismissDialog("Open Implemented Design"); // bt:g (cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 256, 436, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 256, 436, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// bt:g (cd:JFrame):  Open Design Run Reports : addNotify
+// Tcl Message: ERROR: [Common 17-165] Too many positional options when parsing '401/Lab1/Lab1/Lab1.runs/impl_1/mux_power_routed.rpx', please type 'open_report -help' for usage info. 
+// [GUI Memory]: 97 MB (+3717kb) [00:14:50]
+// TclEventType: TIMING_SUMMARY_UPDATED
+dismissDialog("Open Design Run Reports"); // bt:g (cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 8, 286, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 8, 286, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 396, 183, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 396, 183, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 409, 183, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 409, 183, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 421, 183, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 421, 183, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 432, 183, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 432, 183, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - E2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 440, 184, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - E2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 440, 184, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 440, 158, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 440, 158, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 437, 153, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 437, 153, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 439, 153, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 439, 153, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 441, 153, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 441, 153, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 216'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 444, 153, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 216'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 444, 153, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 449, 153, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 449, 153, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 451, 153, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 451, 153, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 453, 153, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 453, 153, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 453, 154, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 453, 154, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 453, 155, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 453, 155, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 453, 156, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 453, 156, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 453, 158, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 453, 158, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 453, 159, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 453, 159, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 453, 161, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 453, 161, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 454, 162, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 454, 162, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 455, 162, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 455, 162, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 458, 165, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 458, 165, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 461, 168, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 461, 168, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 461, 169, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 461, 169, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 462, 169, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 462, 169, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 461, 169, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 461, 169, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 460, 169, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 460, 169, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 458, 169, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 458, 169, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 456, 168, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 456, 168, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 454, 164, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 454, 164, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 453, 163, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 453, 163, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 446, 158, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 446, 158, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 432, 151, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 432, 151, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C1'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 399, 129, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C1'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 399, 129, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C1'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 389, 120, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C1'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 389, 120, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 216'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 380, 114, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 216'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 380, 114, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 216'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 375, 108, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 216'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 375, 108, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 216'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 372, 104, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 216'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 372, 104, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 216'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 371, 102, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 216'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 371, 102, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 216'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 370, 100, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 216'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 370, 100, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 216'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 370, 99, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 216'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 370, 99, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 216'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 370, 97, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 216'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 370, 97, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 216'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 366, 93, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 216'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 366, 93, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 216'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 363, 88, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 216'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 363, 88, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 216'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 360, 83, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 216'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 360, 83, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 357, 76, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 357, 76, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 356, 71, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 354, 67, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 354, 67, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 353, 62, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 353, 62, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 353, 59, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 353, 59, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 353, 57, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 353, 57, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 353, 55, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 353, 55, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 354, 54, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 354, 54, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 355, 53, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 355, 53, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 356, 52, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 356, 52, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 356, 53, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 356, 53, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 356, 54, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 356, 54, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 355, 55, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 355, 55, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 353, 56, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 353, 56, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 352, 57, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 352, 57, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 349, 57, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 349, 57, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 343, 57, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 343, 57, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 334, 57, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 334, 57, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 322, 57, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 322, 57, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 306, 58, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 306, 58, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 280, 61, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 280, 61, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 248, 66, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 248, 66, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 217, 72, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 217, 72, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 182, 81, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 182, 81, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 149, 92, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 149, 92, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 120, 105, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 120, 105, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 94, 120, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 94, 120, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 66, 139, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 66, 139, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 37, 158, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 37, 158, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 9, 179, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 9, 179, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// [Engine Memory]: 1,066 MB (+40049kb) [00:14:59]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,069 MB. GUI used memory: 70 MB. Current time: 5/1/17 6:15:52 PM PDT
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 2, 611, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 2, 611, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 7, 628, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 7, 628, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 10, 637, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 10, 637, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 10, 644, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 10, 644, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 10, 645, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 10, 645, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 10, 648, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 10, 648, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 10, 652, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 10, 652, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 10, 658, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 10, 658, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 10, 673, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 10, 673, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectTab((HResource) null, (HResource) null, "DRC", 8); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+// [Engine Memory]: 1,132 MB (+13007kb) [00:15:07]
+selectTab((HResource) null, (HResource) null, "I/O Ports", 6); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+// [Engine Memory]: 1,312 MB (+129503kb) [00:15:09]
+selectTab((HResource) null, (HResource) null, "Package Pins", 5); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+// RouteApi::initDelayMediator elapsed time: 22.2s
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// [Engine Memory]: 1,389 MB (+12026kb) [00:15:11]
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Package Pins", 5); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 86, 567, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 86, 567, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 96, 506, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 96, 506, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 102, 450, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 102, 450, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 106, 412, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 106, 412, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 109, 388, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 113, 367, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 113, 367, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 118, 353, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 118, 353, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 117, 353, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 117, 353, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 115, 351, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 115, 351, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 108, 340, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 108, 340, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 94, 319, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 94, 319, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 71, 279, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 71, 279, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 47, 234, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 47, 234, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 24, 191, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 24, 191, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 6, 152, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 6, 152, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,405 MB. GUI used memory: 70 MB. Current time: 5/1/17 6:16:07 PM PDT
+selectButton(PAResourceOtoP.PackageView_SHOW_BOTTOM_VIEW, "Package_togglepackageview"); // y:JideButton (g:CommandBar, cd:JFrame)
+selectButton(PAResourceOtoP.PackageView_SHOW_TOP_VIEW, "Package_togglepackageview"); // y:JideButton (g:CommandBar, cd:JFrame)
+selectButton(PAResourceOtoP.PackageView_SHOW_BOTTOM_VIEW, "Package_togglepackageview"); // y:JideButton (g:CommandBar, cd:JFrame)
+selectButton(PAResourceOtoP.PackageView_SHOW_TOP_VIEW, "Package_togglepackageview"); // y:JideButton (g:CommandBar, cd:JFrame)
+selectButton(PAResourceOtoP.PackageView_SHOW_BOTTOM_VIEW, "Package_togglepackageview"); // y:JideButton (g:CommandBar, cd:JFrame)
+selectButton(PAResourceOtoP.PackageView_SHOW_TOP_VIEW, "Package_togglepackageview"); // y:JideButton (g:CommandBar, cd:JFrame)
+selectButton(PAResourceOtoP.PackageView_SHOW_BOTTOM_VIEW, "Package_togglepackageview"); // y:JideButton (g:CommandBar, cd:JFrame)
+selectButton(PAResourceOtoP.PackageView_SHOW_TOP_VIEW, "Package_togglepackageview"); // y:JideButton (g:CommandBar, cd:JFrame)
+selectButton(PAResourceOtoP.PackageView_SHOW_BOTTOM_VIEW, "Package_togglepackageview"); // y:JideButton (g:CommandBar, cd:JFrame)
+selectButton(PAResourceOtoP.PackageView_SHOW_DIFFERENTIAL_IO_PAIRS, "Package_showpnpairs"); // r:JideToggleButton (g:CommandBar, cd:JFrame): TRUE
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 55, 8, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 55, 8, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 85, 25, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 85, 25, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 142, 63, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 142, 63, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 169, 84, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 169, 84, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 226, 133, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 226, 133, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 247, 156, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 247, 156, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 281, 190, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 281, 190, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 288, 200, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 288, 200, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 296, 214, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 296, 214, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 298, 218, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 298, 218, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 297, 218, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 292, 218, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 284, 218, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 284, 218, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 266, 220, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 266, 220, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 243, 222, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 243, 222, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 213, 222, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 213, 222, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 188, 222, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 188, 222, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 169, 222, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 169, 222, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 158, 222, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 158, 222, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 134, 222, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 134, 222, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 123, 222, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 123, 222, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 109, 222, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 109, 222, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 94, 225, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 94, 225, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 74, 227, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 74, 227, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 55, 233, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 55, 233, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 34, 237, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 9, 245, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 9, 245, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 50, 17, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 50, 17, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 47, 48, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 47, 48, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 46, 73, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 46, 73, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 46, 95, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 46, 95, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 49, 148, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 49, 148, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 56, 177, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 56, 177, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 66, 205, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 78, 238, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 90, 267, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 90, 267, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 100, 290, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 100, 290, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 110, 308, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 110, 308, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 111, 317, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 111, 317, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 113, 317, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 113, 317, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 118, 317, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 118, 317, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 126, 317, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 126, 317, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 140, 317, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 140, 317, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 173, 320, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 173, 320, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 224, 320, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 224, 320, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 281, 322, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 281, 322, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 342, 328, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 342, 328, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - J18'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 391, 332, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - J18'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 391, 332, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - J17'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 428, 336, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - J17'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 428, 336, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - J16'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 451, 340, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - J16'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 451, 340, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - J16'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 462, 342, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - J16'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 462, 342, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 14'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 468, 344, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 14'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 468, 344, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 14'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 469, 345, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 14'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 469, 345, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 14'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 469, 346, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 14'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 469, 346, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 14'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 468, 346, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 14'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 468, 346, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 14'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 466, 347, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 14'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 466, 347, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 14'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 464, 347, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 14'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 464, 347, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - K16'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 463, 348, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - K16'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 463, 348, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - K16'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 462, 348, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - K16'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 462, 348, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - K16'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 461, 349, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - K16'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 461, 349, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - K16'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 460, 349, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - K16'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 460, 349, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - K16'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 459, 349, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - K16'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 459, 349, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - K16'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 458, 349, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - K16'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 458, 349, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - K16'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 457, 349, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - K16'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 457, 349, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - K16'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 456, 349, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - K16'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 456, 349, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - K16'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 454, 351, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - K16'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 454, 351, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - K16'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 449, 353, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - K16'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 449, 353, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - K17'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 440, 357, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - K17'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 440, 357, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - K17'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 433, 362, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - K17'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 433, 362, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - K17'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 426, 366, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - K17'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 426, 366, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - K17'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 420, 370, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - K17'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 420, 370, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 14'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 414, 374, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 14'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 414, 374, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 14'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 408, 378, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 14'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 408, 378, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - L18'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 403, 383, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - L18'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 403, 383, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - L18'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 398, 387, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - L18'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 398, 387, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - L18'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 392, 392, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - L18'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 392, 392, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - L18'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 382, 397, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - L18'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 382, 397, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 371, 404, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 371, 404, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 353, 412, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 353, 412, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 325, 421, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 325, 421, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 302, 431, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 302, 431, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 288, 435, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 288, 435, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 280, 437, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 280, 437, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 277, 438, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 277, 438, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 274, 438, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 274, 438, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 273, 438, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 273, 438, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 271, 438, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 271, 438, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 266, 438, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 266, 438, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 260, 438, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 260, 438, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 255, 438, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 255, 438, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 251, 438, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 251, 438, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 249, 438, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 249, 438, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 247, 438, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 247, 438, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 243, 438, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 243, 438, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 242, 437, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 242, 437, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 241, 437, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 241, 437, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 241, 435, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 241, 435, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 240, 435, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 240, 435, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 239, 435, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 239, 435, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 238, 434, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 238, 434, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 236, 434, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 236, 434, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 232, 434, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 232, 434, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 227, 434, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 227, 434, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 223, 434, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 223, 434, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 220, 434, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 220, 434, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 218, 433, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 218, 433, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 217, 433, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 217, 433, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 216, 433, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 216, 433, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectGraphicalView(PAResourceOtoP.PAViews_PACKAGE, -689, 2632, false, false, false, true, false); // w:A (JViewport:JComponent, cd:JFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 216, 433, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 216, 433, 1374, 691, false, false, false, true, false); // v:aE (k:TdiGroup, cd:JFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 215, 433, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 215, 433, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 214, 433, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 214, 433, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 214, 434, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 214, 434, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 213, 435, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 213, 435, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 212, 436, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 212, 436, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 211, 438, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 211, 438, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 209, 441, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 209, 441, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 206, 444, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 206, 444, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 204, 448, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 204, 448, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 203, 451, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 203, 451, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 200, 457, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 200, 457, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 200, 460, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 200, 460, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 198, 466, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 198, 466, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 196, 471, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 196, 471, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 194, 478, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 194, 478, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 189, 489, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 189, 489, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 186, 494, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 186, 494, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 181, 500, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 181, 500, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 174, 510, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 174, 510, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 172, 513, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 172, 513, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 167, 518, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 167, 518, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 161, 523, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 161, 523, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 155, 528, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 155, 528, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 147, 535, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 147, 535, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 130, 549, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 130, 549, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 120, 558, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 120, 558, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 109, 566, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 109, 566, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 100, 576, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 100, 576, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 91, 586, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 91, 586, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 84, 593, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 84, 593, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 80, 599, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 80, 599, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 79, 602, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 79, 602, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 78, 602, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 78, 602, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 77, 602, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 77, 602, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 75, 601, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 75, 601, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 69, 598, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 69, 598, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 54, 592, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 54, 592, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 43, 586, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 43, 586, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 30, 582, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 30, 582, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 21, 577, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 21, 577, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 12, 574, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 12, 574, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 5, 570, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 5, 570, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 0, 568, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 0, 568, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 5, 622, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 5, 622, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 59, 636, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 59, 636, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 153, 673, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 153, 673, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 285, 688, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 285, 688, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 292, 684, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 292, 684, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 297, 683, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 297, 683, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 301, 683, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 301, 683, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 303, 683, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 303, 683, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 303, 682, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 303, 682, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 303, 681, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 303, 681, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 305, 678, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 305, 678, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 306, 674, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 306, 674, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 307, 672, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 307, 672, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 309, 670, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 309, 670, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 309, 668, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 309, 668, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 311, 666, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 311, 666, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 312, 664, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 312, 664, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 318, 661, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 318, 661, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 323, 659, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 323, 659, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 333, 655, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 333, 655, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 343, 652, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 343, 652, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 354, 649, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 354, 649, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 366, 647, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 366, 647, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 374, 646, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 374, 646, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 379, 646, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 379, 646, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 385, 647, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 385, 647, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 391, 649, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 391, 649, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 396, 653, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 396, 653, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 401, 657, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 401, 657, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 405, 662, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 405, 662, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 408, 667, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 408, 667, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 413, 672, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 413, 672, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 418, 676, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 418, 676, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 422, 680, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 422, 680, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 426, 685, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 426, 685, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 429, 689, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 429, 689, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Clock Regions", 1); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Properties", 0); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+// [GUI Memory]: 102 MB (+607kb) [00:15:52]
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 70 MB. Current time: 5/1/17 6:16:47 PM PDT
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 35, false); // v:K (u:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// [GUI Memory]: 111 MB (+4182kb) [00:16:13]
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Mon May 01 18:17:06 2017] Launched impl_1... Run output will be captured here: C:/CSE 401/Lab1/Lab1/Lab1.runs/impl_1/runme.log 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Bitstream Settings]", 34, false); // v:K (u:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_BITSTREAM_SETTINGS
+// Project Settings: addNotify
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 363, 127, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 363, 127, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 364, 126, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 364, 126, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 374, 123, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 374, 123, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C18'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 397, 121, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C18'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 397, 121, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C17'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 433, 126, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C17'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 433, 126, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C10'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 668, 130, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C10'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 668, 130, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 15'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 676, 129, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 15'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 676, 129, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C9'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 678, 128, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C9'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 678, 128, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C9'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 680, 128, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C9'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 680, 128, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C9'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 679, 128, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C9'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 679, 128, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C9'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 678, 128, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C9'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 678, 128, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 15'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 677, 128, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 15'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 677, 128, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 15'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 676, 128, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 15'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 676, 128, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 15'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 675, 128, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 15'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 675, 128, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 15'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 675, 129, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 15'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 675, 129, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 15'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 674, 129, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 15'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 674, 129, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C10'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 671, 129, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C10'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 671, 129, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C10'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 666, 132, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C10'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 666, 132, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C10'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 662, 132, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C10'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 662, 132, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C10'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 660, 132, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C10'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 660, 132, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C10'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 659, 132, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C10'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 659, 132, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C10'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 645, 143, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C10'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 645, 143, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+dismissDialog("Project Settings"); // i:aA (cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 15'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 644, 143, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 15'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 644, 143, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 15'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 643, 143, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 15'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 643, 143, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 15'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 642, 143, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 15'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 642, 143, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 15'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 641, 143, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 15'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 641, 143, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C11'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 632, 144, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C11'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 632, 144, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C11'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 623, 145, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - C11'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 623, 145, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 15'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 605, 147, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 15'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 605, 147, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D14'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 526, 158, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D14'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 526, 158, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 15'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 476, 164, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 15'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 476, 164, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D17'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 425, 174, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D17'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 425, 174, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 369, 186, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 369, 186, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 318, 199, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 318, 199, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 275, 213, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 275, 213, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 239, 223, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 239, 223, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 212, 231, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 212, 231, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 194, 239, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 194, 239, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 183, 245, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 183, 245, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 177, 251, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 177, 251, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 173, 256, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 173, 256, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 171, 259, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 171, 259, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 170, 264, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 170, 264, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 166, 271, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 166, 271, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 165, 271, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 165, 271, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 163, 271, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 163, 271, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 161, 270, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 161, 270, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 157, 270, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 157, 270, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 147, 270, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 147, 270, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 130, 271, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 130, 271, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 94, 284, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 94, 284, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 61, 294, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 61, 294, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 35, 299, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 35, 299, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 19, 301, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 19, 301, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 8, 301, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 8, 301, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 0, 301, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 0, 301, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 2, 4, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 2, 4, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 14, 2, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 14, 2, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Device", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Device view-level: 0.0
+// Device view-level: 0.3
+// Device view-level: 0.6
+// Device view-level: 0.9
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 79 MB. Current time: 5/1/17 6:17:18 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 78 MB. Current time: 5/1/17 6:17:19 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 79 MB. Current time: 5/1/17 6:17:20 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 103 MB. Current time: 5/1/17 6:17:21 PM PDT
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 235, 8, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 235, 8, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 248, 19, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 248, 19, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 255, 28, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 255, 28, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 262, 36, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 262, 36, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 266, 42, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 266, 42, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 269, 50, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 269, 50, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 269, 53, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 269, 53, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 268, 54, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 264, 55, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 264, 55, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 245, 62, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 245, 62, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 249, 62, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 249, 62, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 262, 55, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 262, 55, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 297, 35, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 297, 35, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 345, 9, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 345, 9, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1300, 0, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1300, 0, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1333, 12, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1333, 12, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1346, 23, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1346, 23, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1336, 27, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1336, 27, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1320, 33, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1320, 33, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1293, 43, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1293, 43, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1262, 53, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1262, 53, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1230, 60, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1230, 60, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1204, 66, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1204, 66, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1186, 69, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1186, 69, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1173, 71, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1173, 71, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1163, 74, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1163, 74, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1147, 78, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1147, 78, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1131, 83, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1131, 83, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1105, 92, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1105, 92, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1079, 105, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1079, 105, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1048, 121, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1048, 121, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1017, 135, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 1017, 135, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 216'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 988, 150, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 216'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 988, 150, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D1'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 957, 164, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D1'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 957, 164, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 931, 175, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - D2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 931, 175, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - E2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 908, 193, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - E2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 908, 193, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 907, 195, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 907, 195, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 216'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 904, 199, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 216'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 904, 199, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - F3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 886, 222, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - F3'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 886, 222, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - G5'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 824, 275, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - G5'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 824, 275, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - H6'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 780, 308, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - H6'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 780, 308, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 728, 346, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 728, 346, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 0'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 675, 379, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 0'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 675, 379, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 618, 412, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 618, 412, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 562, 445, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 562, 445, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 14'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 511, 476, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 14'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 511, 476, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Port - y[26]'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 467, 497, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Port - y[26]'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 467, 497, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 14'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 430, 512, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'I/O Bank - I/O Bank 14'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 430, 512, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - R18'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 406, 518, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - R18'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 393, 519, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - R18'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 393, 519, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - R18'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 382, 519, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+// Package select: 'Package Pin - R18'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 382, 519, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 374, 517, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 374, 517, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 369, 514, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 369, 514, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 366, 511, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 366, 511, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 364, 510, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 364, 510, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 364, 509, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 364, 509, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 364, 507, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 364, 507, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 364, 497, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 364, 497, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 365, 497, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 365, 497, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 367, 497, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 367, 497, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 369, 497, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 369, 497, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 370, 497, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 370, 497, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 371, 497, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 371, 497, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 372, 497, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 372, 497, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 373, 497, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 373, 497, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 372, 496, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 372, 496, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 366, 492, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 366, 492, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 348, 486, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 348, 486, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 307, 471, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 307, 471, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 257, 451, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 257, 451, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 203, 435, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 203, 435, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 149, 417, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 149, 417, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 100, 399, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 100, 399, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 59, 374, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 59, 374, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 31, 351, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 31, 351, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 12, 329, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 12, 329, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 2, 313, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 2, 313, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 3, 210, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 3, 210, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 13, 154, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 13, 154, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 23, 106, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 23, 106, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 34, 61, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 34, 61, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 39, 29, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 39, 29, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 40, 15, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 40, 15, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 40, 8, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 40, 8, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 40, 6, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 40, 6, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 40, 7, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 40, 7, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 40, 9, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 40, 9, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 40, 10, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 40, 10, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 40, 11, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 40, 11, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 41, 11, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 41, 11, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 42, 11, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 42, 11, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 47, 8, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 47, 8, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 52, 6, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 52, 6, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 57, 3, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 57, 3, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 60, 2, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 60, 2, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 64, 2, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 64, 2, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 72, 2, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 72, 2, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 83, 2, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 83, 2, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 95, 2, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 95, 2, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 110, 4, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 110, 4, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 127, 5, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 127, 5, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 143, 5, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 143, 5, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 155, 5, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 155, 5, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 165, 5, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 165, 5, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 170, 5, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 170, 5, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 172, 6, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 172, 6, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 171, 6, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 171, 6, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 170, 6, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 170, 6, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 170, 5, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 170, 5, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 170, 4, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 170, 4, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 170, 2, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 170, 2, 1374, 691); // v:aE (k:TdiGroup, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Device", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 161195, 83376); // J:a (JViewport:JComponent, cd:JFrame)
+// Device view-level: 0.4
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 149684, 174164); // J:a (JViewport:JComponent, cd:JFrame)
+// Device view-level: 0.1
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 133356, 155636); // J:a (JViewport:JComponent, cd:JFrame)
+// Device view-level: 0.0
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 218642, 230588); // J:a (JViewport:JComponent, cd:JFrame)
+// Device view-level: 0.3
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 107 MB. Current time: 5/1/17 6:17:37 PM PDT
+// Device view-level: 0.6
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 186334, 291123); // J:a (JViewport:JComponent, cd:JFrame)
+// Device view-level: 0.0
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 231931, 265763); // J:a (JViewport:JComponent, cd:JFrame)
+// Device view-level: 0.5
+// [GUI Memory]: 117 MB (+599kb) [00:16:47]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 78 MB. Current time: 5/1/17 6:17:40 PM PDT
+selectButton(PAResourceAtoD.DeviceView_SHOW_CELL_CONNECTIONS, "Device_showinstanceconnections"); // r:JideToggleButton (g:CommandBar, cd:JFrame): TRUE
+// Show Cell Connections: show
+selectButton(RDIResource.HPopupTitle_CLOSE, (String) null); // k:JideButton (JPanel:JComponent, ResizableWindow:JWindow)
+// Show Cell Connections: hide
+// TclEventType: RUN_FAILED
+// ah:y (cd:JFrame): Bitstream Generation Failed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Bitstream Generation Failed"); // ah:y (cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectButton(PAResourceAtoD.DeviceView_SHOW_CELL_CONNECTIONS, "Device_showinstanceconnections"); // r:JideToggleButton (g:CommandBar, cd:JFrame): TRUE
+// Show Cell Connections: show
+selectButton(RDIResource.HPopupTitle_CLOSE, (String) null); // k:JideButton (JPanel:JComponent, ResizableWindow:JWindow)
+// Show Cell Connections: hide
+selectButton(RDIResource.GraphicalView_PREVIOUS, "Device_previousview"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Device view-level: 0.0
+selectButton(RDIResource.GraphicalView_PREVIOUS, "Device_previousview"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Device view-level: 0.6
+selectButton(RDIResource.GraphicalView_PREVIOUS, "Device_previousview"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Device view-level: 0.3
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 102 MB. Current time: 5/1/17 6:18:05 PM PDT
+selectButton(RDIResource.GraphicalView_PREVIOUS, "Device_previousview"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Device view-level: 0.0
+selectButton(RDIResource.GraphicalView_PREVIOUS, "Device_previousview"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Device view-level: 0.1
+selectButton(RDIResource.GraphicalView_PREVIOUS, "Device_previousview"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Device view-level: 0.4
+selectButton(RDIResource.GraphicalView_PREVIOUS, "Device_previousview"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Device view-level: 0.9
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 115 MB. Current time: 5/1/17 6:18:06 PM PDT
+selectButton(RDIResource.GraphicalView_PREVIOUS, "Device_previousview"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Device view-level: 0.6
+selectButton(RDIResource.GraphicalView_PREVIOUS, "Device_previousview"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Device view-level: 0.3
+selectButton(RDIResource.GraphicalView_PREVIOUS, "Device_previousview"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Device view-level: 0.0
+selectButton(RDIResource.GraphicalView_PREVIOUS, "Device_previousview"); // y:JideButton (g:CommandBar, cd:JFrame)
+selectButton(RDIResource.GraphicalView_PREVIOUS, "Device_previousview"); // y:JideButton (g:CommandBar, cd:JFrame)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 34954, 168837, false, false, false, true, false); // J:a (JViewport:JComponent, cd:JFrame) - Popup Trigger
+// Device select: 'Clock Region - X0Y2'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 505, 216, 1374, 691); // X:I (k:TdiGroup, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 505, 216, 1374, 691, false, false, false, true, false); // X:I (k:TdiGroup, cd:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_DRAW_PBLOCK_MODE, "Draw Pblock"); // ac:JMenuItem (ai:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_DRAW_PBLOCK_MODE
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, -107308, 197759); // J:a (JViewport:JComponent, cd:JFrame)
+// HOptionPane Warning: 'Rectangle does not contain any valid sites (Bad Rectangle)'
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 79 MB. Current time: 5/1/17 6:18:21 PM PDT
+selectTab((HResource) null, (HResource) null, "Netlist", 1); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux (mux.v)]", 1, false, false, false, false, true, false); // y:i (D:JPanel, cd:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z:JMenu (ai:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z:JMenu (ai:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z:JMenu (ai:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z:JMenu (ai:JPopupMenu, cd:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // y:i (D:JPanel, cd:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux (mux.v)]", 1, false, false, false, false, true, false); // y:i (D:JPanel, cd:JFrame) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SrcMenu_OPEN_SELECTED_SOURCE_FILES, "Open File"); // ac:JMenuItem (ai:JPopupMenu, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux (mux.v)]", 1, false, false, false, false, true, false); // y:i (D:JPanel, cd:JFrame) - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux (mux.v)]", 1, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux (mux.v)]", 1, false, false, false, false, true, false); // y:i (D:JPanel, cd:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z:JMenu (ai:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z:JMenu (ai:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z:JMenu (ai:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z:JMenu (ai:JPopupMenu, cd:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ac:JMenuItem (ai:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cd:JFrame): Add Sources: addNotify
+// Elapsed time: 12 seconds
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, "Add or create simulation sources"); // a:JRadioButton (JPanel:JComponent, b:g)
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_HDL_AND_NETLIST_FILES_OR_DIRECTORIES, "Add or create design sources"); // a:JRadioButton (JPanel:JComponent, b:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a:JButton (C:JPanel, b:g)
+setFileChooser("C:/modeltech64_10.1c/examples/test-mux.v");
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'h' command handler elapsed time: 34 seconds
+dismissDialog("Add Sources"); // b:g (cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse C:/modeltech64_10.1c/examples/test-mux.v 
+// [GUI Memory]: 126 MB (+3200kb) [00:18:46]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, test_mux (test-mux.v)]", 2, true); // y:i (D:JPanel, cd:JFrame) - Node
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, test_mux (test-mux.v)]", 2); // y:i (D:JPanel, cd:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, test_mux (test-mux.v)]", 2); // y:i (D:JPanel, cd:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, test_mux (test-mux.v)]", 2); // y:i (D:JPanel, cd:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, test_mux (test-mux.v)]", 2); // y:i (D:JPanel, cd:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header]", 1); // y:i (D:JPanel, cd:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header]", 1); // y:i (D:JPanel, cd:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header]", 1); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, test_mux (test-mux.v)]", 3, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// ar:g (cd:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ar:g)
+dismissDialog("Remove Sources"); // ar:g (cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  C:/modeltech64_10.1c/examples/test-mux.v 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux (mux.v)]", 1, false); // y:i (D:JPanel, cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2, true); // y:i (D:JPanel, cd:JFrame) - Node
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // y:i (D:JPanel, cd:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux (mux.v)]", 1, false); // y:i (D:JPanel, cd:JFrame)
+selectCodeEditor("mux.v", 477, 328); // bF:I (JPanel:JComponent, cd:JFrame)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 84 MB. Current time: 5/1/17 7:01:30 PM PDT
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 69 MB. Current time: 5/1/17 7:31:33 PM PDT
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 9000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 66 MB. Current time: 5/1/17 8:01:36 PM PDT
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 65 MB. Current time: 5/1/17 8:31:36 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 66 MB. Current time: 5/1/17 9:01:38 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 65 MB. Current time: 5/1/17 9:31:40 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 74 MB. Current time: 5/1/17 10:01:40 PM PDT
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 9000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 11000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 12000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 13000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 14000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (ExpRunMonitor Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 15000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 16000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 75 MB. Current time: 5/1/17 10:31:43 PM PDT
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 17000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 18000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 9000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 74 MB. Current time: 5/1/17 11:01:45 PM PDT
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 19000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HTimer (ExpRunMonitor Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 74 MB. Current time: 5/1/17 11:31:47 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 74 MB. Current time: 5/2/17 12:01:49 AM PDT
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 74 MB. Current time: 5/2/17 12:31:52 AM PDT
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 74 MB. Current time: 5/2/17 1:01:54 AM PDT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 74 MB. Current time: 5/2/17 4:30:03 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 75 MB. Current time: 5/2/17 7:57:58 PM PDT
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 65 MB. Current time: 5/2/17 8:27:55 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 66 MB. Current time: 5/2/17 8:57:55 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 65 MB. Current time: 5/2/17 9:27:55 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 67 MB. Current time: 5/2/17 9:57:56 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 66 MB. Current time: 5/2/17 10:27:56 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 67 MB. Current time: 5/2/17 10:57:56 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 66 MB. Current time: 5/2/17 11:27:57 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 67 MB. Current time: 5/2/17 11:57:57 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 66 MB. Current time: 5/3/17 12:27:57 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 66 MB. Current time: 5/3/17 12:57:57 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 66 MB. Current time: 5/3/17 1:27:58 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 66 MB. Current time: 5/3/17 4:38:44 AM PDT
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 66 MB. Current time: 5/3/17 6:30:23 PM PDT
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 9000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 20000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 65 MB. Current time: 5/3/17 7:00:24 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 67 MB. Current time: 5/3/17 7:30:26 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 65 MB. Current time: 5/3/17 8:00:27 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 65 MB. Current time: 5/3/17 8:30:30 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 66 MB. Current time: 5/3/17 9:38:19 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 65 MB. Current time: 5/3/17 10:08:20 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 66 MB. Current time: 5/3/17 10:38:23 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 66 MB. Current time: 5/3/17 11:08:25 PM PDT
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,457 MB. GUI used memory: 67 MB. Current time: 5/3/17 11:38:28 PM PDT
