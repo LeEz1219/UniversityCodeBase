@@ -1,0 +1,15 @@
+//This tutorial is to teach you how to facial and eye recognition using python2.7
+//A few notes: 
+//1.) Do not use OpenCV 3.0 as this will not work for face detection
+//2.) I used python as it simplified the procedure
+//3.)The old guide was a bit outdated and took up quite a bit of hard drive space this allow you to install fairly quickly with less problems additionally it seems that to make it work Visual Studio 2010 needed to be use which Microsoft no longer supports thereby requiring me to change the manual
+
+Finally here are the steps to the tutorial:
+1.)	Install OpenCV 2.4.11 (it should be available and has significantly less bugs than OpenCV 3.0) by extracting it to the C drive. 
+2.)	Install Python 2.7 also on the C drive from the website. IMPORTANT: It seems that OpenCV works best when using the x86 versions so grab the x86 installer.
+3.)	Install numpy by running the command pip install numpy-1.9.3+mkl-cp27-none-win32.whl from the same directory as this tutorial is located at since the file is located here.
+4.)	To link opencv to python you’ll need to copy cv2.pyd from C:\opencv\build\python\2.7\x86 to C:\Python27\Lib\site-packages
+5.)	Finally run the python script I included by running python face2.py [Path to face xml file] [Path to eye-tree xml file] 
+6.)	Remember this script needs those two paremeters in my case I ran python face2.py C:\opencv\sources\data\haarcascades\haarcascade_frontalface_alt.xml C:\opencv\sources\data\haarcascades\haarcascade_eye_tree_eyeglasses.xml
+7.)	Also remember to quit the program you press q
+8.)	For making the script into an executable go to: https://mborgerson.com/creating-an-executable-from-a-python-script
